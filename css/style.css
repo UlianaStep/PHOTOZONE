@@ -770,6 +770,14 @@ font-family: 'PT Sans', sans-serif;
 
 
 @media(max-width:450px){
+
+  .h1fors{
+    font-size: 36px;
+  }
+
+  .into{
+    padding: 10px;
+  }
   .f{display: none;}
 
   .fformob{display: flex;
@@ -794,14 +802,14 @@ font-family: 'PT Sans', sans-serif;
   padding: 10px;
   width: 300px;
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.313);
+  background-color: rgba(0, 0, 0, 0.551);
   }
 
   .fH1_for_mob{
     text-align: center;
     color: #fff;
-    font-family: 'PT Sans', sans-serif;
-  font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+  font-size: 28px;
   margin-top: 2px;
   margin-bottom: 25px;
   }
@@ -861,11 +869,19 @@ font-family: 'PT Sans', sans-serif;
 
   .zagforform{
     font-size: 20px;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
 
   }
 
   .col{
     margin-bottom: 100px;
+  }
+
+  .row{
+    --bs-gutter-x:0;
   }
 
 
