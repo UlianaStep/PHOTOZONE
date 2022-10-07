@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+    <header id="header">
+
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.svg" alt="Bootstrap" width="171" height="97">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#team">КОМАНДА</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#works">РАБОТЫ УЧЕНИКОВ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#otzzya">ОТЗЫВЫ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tarif">ТАРИФЫ</a>
+              </li>
+            </ul>
+            <form action="#" class="d-flex">
+                <button class="btn">ЗАПИСАТЬСЯ</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="hero" class = "f">
+      <div class="conteiner_for_f">
+      <h1 class = "fH1">Открыт новый набор</h1>
+      <p class="fp">Занятия в группах по 3-5 человек<br>
+        Старт занятий в октябре</p>
+        <button class="fbutton1">ЗАПИСАТЬСЯ</button>
+      </div>
+    </section>
+
+    <section class="fformob" id="hero_mob">
+      <div class="contentblok">
+        <h1 class = "fH1_for_mob">Открыт новый набор</h1>
+      <p class="fp_for_mod">Занятия в группах по 3-5 человек<br>
+        Старт занятий в октябре</p>
+        <button class="fbutton1_for_mob">ЗАПИСАТЬСЯ</button>
+      </div>
+    </section>
+
+    <section id="team" class = "s">
+      <div class="zagolovoks">
+        <h1 class="h1fors">Команда профессионалов</h1>
+        <img src="img/Vector 3.png" alt="#" class="line">
+      </div>
+      <div class="comanda">
+        <div class="persona">
+          <div class="infoblok">
+          <h2 class="name">
+            Олег Митенков
+          </h2>
+          <h3 class="litinfo">
+            12 лет в сфере фотографии
+          </h3>
+          <p class="allinfo">
+            Моя задача - научить вас видеть все в<br>
+            лучшем ракурсе, при правильном свете <br>
+            и на нужных позициях
+          </p>
+          <button class="portf">ПОРТФОЛИО</button>
+        </div>
+        <img src="img/oleg.png" alt="#" class="personaphoto">
+        </div>
+        <div class="persona">
+          <div class="infoblok">
+          <h2 class="name">
+            Алиса Кумичкова
+          </h2>
+          <h3 class="litinfo">
+            7 лет в сфере фотографии
+          </h3>
+          <p class="allinfo">
+            Через объектив камеры порой можно <br>
+            увидеть то, что скрыто от глаз. <br>
+            Это совершенно
+            другой мир
+          </p>
+          <button class="portf">ПОРТФОЛИО</button>
+        </div>
+        <img src="img/alica.png" alt="#" class="personaphoto">
+        </div>
+        <div class="persona">
+          <div class="infoblok">
+          <h2 class="name">
+            Наталья Пригородко
+          </h2>
+          <h3 class="litinfo">
+            11 лет в сфере фотографии
+          </h3>
+          <p class="allinfo">
+            Первый снимок навсегда изменит ваше <br>
+            представление о фотографии. Научитесь <br>
+            ловить моменты через объектив
+          </p>
+          <button class="portf">ПОРТФОЛИО</button>
+        </div>
+        <img src="img/nat.png" alt="#" class="personaphoto">
+        </div>
+      </div>
+      
+    </section>
+    <section id = "works" class="t">
+      <div class="zagolovoks">
+        <h1 class="h1fors">Работы учеников</h1>
+        <img src="img/Vector 3.png" alt="#" class="line">
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="1000">
+            <div class="works">
+              <div class="workperson">
+                <img class = "photoincarousel" src="img/nicolay.png">
+                <div class="infoaboutworker">
+                  <h3 class="nameunderwork">Николай</h3>
+                  <h3 class="linkinst">@Nik_ph</h3>
+                </div>
+              </div>
+              <div class="workperson">
+                <img class = "photoincarousel" src="img/tatiyana.png">
+                <div class="infoaboutworker">
+                  <h3 class="nameunderwork">Татьяна</h3>
+                  <h3 class="linkinst">@Tanikums</h3>
+                </div>
+              </div>
+              <div class="workperson">
+                <img class = "photoincarousel" src="img/lisa.png">
+                <div class="infoaboutworker">
+                  <h3 class="nameunderwork">Елизавета</h3>
+                  <h3 class="linkinst">@Lu_photos</h3>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+          <div class="carousel-item" data-interval="1000">
+            <div class="works">
+              <div class="workperson">
+                <img class = "photoincarousel" src="img/alex.png">
+                <div class="infoaboutworker">
+                  <h3 class="nameunderwork">Александр</h3>
+                  <h3 class="linkinst">@ALLexxM</h3>
+                </div>
+              </div>
+              <div class="workperson">
+                <img class = "photoincarousel" src="img/margo.png">
+                <div class="infoaboutworker">
+                  <h3 class="nameunderwork">Маргарита</h3>
+                  <h3 class="linkinst">@marGOsha</h3>
+                </div>
+              </div>
+              <div class="workperson">
+                <img class = "photoincarousel" src="img/vic.png">
+                <div class="infoaboutworker">
+                  <h3 class="nameunderwork">Виктория</h3>
+                  <h3 class="linkinst">@VicTorIA</h3>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="1000">
+            <div class="works">
+              <div class="workperson">
+                <img class = "photoincarousel" src="img/svet.png">
+                <div class="infoaboutworker">
+                  <h3 class="nameunderwork">Светлана</h3>
+                  <h3 class="linkinst">@SvetLANDACU</h3>
+                </div>
+              </div>
+              <div class="workperson">
+                <img class = "photoincarousel" src="img/dim.png">
+                <div class="infoaboutworker">
+                  <h3 class="nameunderwork">Дмитрий</h3>
+                  <h3 class="linkinst">@DBurlacov</h3>
+                </div>
+              </div>
+              <div class="workperson">
+                <img class = "photoincarousel" src="img/pal.png">
+                <div class="infoaboutworker">
+                  <h3 class="nameunderwork">Павел</h3>
+                  <h3 class="linkinst">@ArtPal</h3>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="tarif" class="f4">
+      <div class="zagolovoks">
+        <h1 class="h1fors">Тарифы</h1>
+        <img src="img/Vector 3.png" alt="#" class="line">
+      </div>
+
+      <div class="tarifblok">
+        <div class="bigt">
+          <div class="into">
+            <h1 class="bigh1">ОСЕННИЙ КУРС</h1>
+            <p class="infoaboutbig">Занятия в группах по 3-5 человек, дистанционные и реальные встречи, большая программа, выставка работ по завершении обучения</p>
+            <div class="cost">
+              <p href="#" class="zach"><s>8 750Р</s></p>
+              <p href="#" class="normal">7 999Р</p>
+            </div>
+          </div>
+        <button class="cours">ЗАПИСАТЬСЯ</button>
+      </div>
+        <div class="bigt">
+          <div class="into">
+          <h1 class="bigh1">МИНИ КУРС</h1>
+          <p class="infoaboutbig">Занятия в группах по 3-5 человек,
+            подходит для тех, кто хочет только попробовать, сокращенная программа</p>
+          <div class="cost">
+            <p href="#" class="zach"><s>5 750р</s></p>
+            <p href="#" class="normal">4 859р</p>
+          </div> 
+        </div>
+        <button class="cours">ЗАПИСАТЬСЯ</button>
+      </div>
+      </div>
+    </section>
+
+    <section>
+      <section id="otzzya" class="f4">
+        <div class="zagolovoks">
+          <h1 class="h1fors">Отзывы</h1>
+          <img src="img/Vector 3.png" alt="#" class="line">
+        </div>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="true">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="1000">
+            <div class="otzall">
+              <div class="otzonen">
+                <h3 class="nameinotz">ОЛЕГ НЕЧИЧИЛО</h3>
+                <p class="personotz">Всегда думал, что поймать удачный кадр - 
+                  невозможная задача для меня. Но преподаватели с 
+                  курса доказали, что это всего лишь страх, 
+                  который им не составило 
+                  труда победить</p>
+                  <div class="aboutotz">
+                    <p class="courserson">УЧЕНИК ЛЕТНЕГО КУРСА</p>
+                    <button class="portf_2">ПОРТФОЛИО</button>
+                  </div>
+              </div>
+              <div class="otzonen">
+                <h3 class="nameinotz">ЕЛЕНА МАРТЫШОВА</h3>
+                <p class="personotz">Фотография привлекала меня с детства, но 
+                  четкой уверенности не было. Однако пройдя мини-курс, я 
+                  поняла, чему хочу посвятить свое свободное время. Ждите 
+                  меня на основном курсе!</p>
+                  <div class="aboutotz">
+                    <p class="courserson">УЧЕНИК МИНИ КУРСА</p>
+                    <button class="portf_2">ПОРТФОЛИО</button>
+                  </div>
+              </div>
+             
+              
+            </div>
+            
+          </div>
+          <div class="carousel-item" data-interval="1000">
+            <div class="otzall">
+              <div class="otzonen">
+                <h3 class="nameinotz">ОЛЕГ НЕЧИЧИЛО</h3>
+                <p class="personotz">Всегда думал, что поймать удачный кадр - 
+                  невозможная задача для меня. Но преподаватели с 
+                  курса доказали, что это всего лишь страх, 
+                  который им не составило 
+                  труда победить</p>
+                  <div class="aboutotz">
+                    <p class="courserson">УЧЕНИК ЛЕТНЕГО КУРСА</p>
+                    <button class="portf_2">ПОРТФОЛИО</button>
+                  </div>
+              </div>
+              <div class="otzonen">
+                <h3 class="nameinotz">ЕЛЕНА МАРТЫШОВА</h3>
+                <p class="personotz">Фотография привлекала меня с детства, но 
+                  четкой уверенности не было. Однако пройдя мини-курс, я 
+                  поняла, чему хочу посвятить свое свободное время. Ждите 
+                  меня на основном курсе!</p>
+                  <div class="aboutotz">
+                    <p class="courserson">УЧЕНИК МИНИ КУРСА</p>
+                    <button class="portf_2">ПОРТФОЛИО</button>
+                  </div>
+              </div>
+             
+              
+            </div>
+          </div>
+          <div class="carousel-item" data-interval="1000">
+            <div class="otzall">
+              <div class="otzonen">
+                <h3 class="nameinotz">ОЛЕГ НЕЧИЧИЛО</h3>
+                <p class="personotz">Всегда думал, что поймать удачный кадр - 
+                  невозможная задача для меня. Но преподаватели с 
+                  курса доказали, что это всего лишь страх, 
+                  который им не составило 
+                  труда победить</p>
+                  <div class="aboutotz">
+                    <p class="courserson">УЧЕНИК ЛЕТНЕГО КУРСА</p>
+                    <button class="portf_2">ПОРТФОЛИО</button>
+                  </div>
+              </div>
+              <div class="otzonen">
+                <h3 class="nameinotz">ОЛЕГ НЕЧИЧИЛО</h3>
+                <p class="personotz">Всегда думал, что поймать удачный кадр - 
+                  невозможная задача для меня. Но преподаватели с 
+                  курса доказали, что это всего лишь страх, 
+                  который им не составило 
+                  труда победить</p>
+                  <div class="aboutotz">
+                    <p class="courserson">УЧЕНИК ЛЕТНЕГО КУРСА</p>
+                    <button class="portf_2">ПОРТФОЛИО</button>
+                  </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      
+        </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="tarif" class="f4">
+      <div class="zagolovoks">
+        <h1 class="h1fors">Мастерклассы</h1>
+        <img src="img/Vector 3.png" alt="#" class="line">
+      </div>
+        <div class="mass">
+          <div class="col">
+            <img class="imgmass" src="img/ball.png" alt="">
+            <p class="namemass">ОСЕННИЙ БАЛ</p>
+            <p class="datamass">10 СЕНТЯБРЯ</p>
+            <div class="modalokno">
+              <!-- Кнопка-триггер модального окна -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                ОЗНАКОМИТЬСЯ
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <img class="imgmass" src="img/phoset.png" alt="">
+            <p class="namemass">ПЕРВАЯ ФОТОСЕССИЯ</p>
+            <p class="datamass">17 СЕНТЯБРЯ</p>
+            <div class="modalokno">
+              <!-- Кнопка-триггер модального окна -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                ОЗНАКОМИТЬСЯ
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <img class="imgmass" src="img/see.png" alt="">
+            <p class="namemass">НОВЫЙ ВЗГЛЯД</p>
+            <p class="datamass">24 СЕНТЯБРЯ</p>
+            <div class="modalokno">
+              <!-- Кнопка-триггер модального окна -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+                ОЗНАКОМИТЬСЯ
+              </button>
+            </div>
+          </div>
+        </div>
+    </section>
+  
+<!-- Модальное окно -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Осенний бал</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+        <p>Информация про бал что-то очень интересное</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Модальное окно -->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel2">Первая фотосессия</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+        <p>Информация про фотосессию что-то очень интересное </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Модальное окно -->
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel3" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel3">Новый взгляд</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+        <p>Информация про новый взгляд что-то очень интересное </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<section id="tarif" class="wform">
+  <div class="onlyforfofm">
+  <div class="zagolovoks">
+    <h1 class="h1form">Обратная связь</h1>
+    <img src="img/Vector 3 w.png" alt="#" class="line">
+  </div>
+  </div>
+  <h2 class="zagforform">НАШ МЕНЕДЖЕР СВЯЖЕТСЯ С ВАМИ В БЛИЖАЙШЕЕ ВРЕМЯ</h2>
+  <form role="form" class ="form" id="nameform">
+    <div class="row">
+      
+      <div class="col-sm-10">
+        <lable for = "Importname"class="col-sm-2 col-form-lable"></lable>
+        <input type="name" class="form-control" id="Importname" placeholder="Ваше имя">
+      </div>
+    </div>
+    <div class="row">
+      
+      <div class="col-sm-10">
+        <lable for = "Importphone"class="col-sm-2 col-form-lable"></lable>
+        <input type="phone" class="form-control" id="Importphone" placeholder="Ваш телефон">
+      </div>
+    </div>
+    <div class="row">
+      
+      <div class="col-sm-10">
+        <lable for = "Importqus"class="col-sm-2 col-form-lable"></lable>
+        <input type="qus" class="form-control" id="Importqus" placeholder="Задайте свой вопрос">
+      </div>
+    </div>
+    <input type="reset" id="nameform" value="Отправить" class = 'lastbutton'>
+  </form>
+</section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+  crossorigin="anonymous"></script>
+  <script>
+    const carousel = new bootstrap.Carousel('#myCarousel')
+  </script>  
+</body>
+</html>
